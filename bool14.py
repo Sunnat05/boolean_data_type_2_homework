@@ -1,4 +1,5 @@
 def main(a):
+    5<=a<15
     """
     Check if the number is greater than or equal 5 and less than 15
     Args:
@@ -7,4 +8,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return 5<=a<15
+print(main(5))
