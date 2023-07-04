@@ -1,4 +1,5 @@
 def main(a):
+    number=(a<0 or a%2==1)
     """
     Check if a given number is negative or odd.
     Args:
@@ -7,4 +8,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return number
+print(main(-34))
