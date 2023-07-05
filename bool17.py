@@ -1,4 +1,5 @@
 def main(L,R):
+    from math import pi
     """
     Check that given L is the length of a circle of radius R.
     Args:
@@ -8,5 +9,5 @@ def main(L,R):
         bool
     """
     # Write your code here
-    return type(L,R)==type(1.0) and 3.14==L/(2*R) 
+    return pi==L/(2*R) 
 print(main(12.56,2))
