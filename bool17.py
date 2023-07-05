@@ -1,5 +1,4 @@
 def main(L,R):
-    3.14==L/(2*R)
     """
     Check that given L is the length of a circle of radius R.
     Args:
