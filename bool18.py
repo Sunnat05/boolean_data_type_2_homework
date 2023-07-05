@@ -7,4 +7,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return
+    return a%4==0 and a%400==0 or not a%100==0
+print(main(1704))
