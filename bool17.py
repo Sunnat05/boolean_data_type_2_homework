@@ -8,5 +8,5 @@ def main(L,R):
         bool
     """
     # Write your code here
-    return 3.14==L/(2*R)
+    return type(L,R)==type(1.0) and 3.14==L/(2*R) 
 print(main(12.56,2))
