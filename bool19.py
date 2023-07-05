@@ -8,5 +8,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return a%4==0  and a**2>10000 and a%1==0
+    return a%4==0  and a**2>10000 and type(a)==type(1)
 print(main(400))
